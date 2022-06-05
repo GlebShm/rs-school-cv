@@ -1,0 +1,33 @@
+body {
+   font-family: 'Syncopate', sans-serif;
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style: none;
+}
+
+.nav-link {
+   border: 1px solid black;
+   padding: 0 20px;
+   line-height: 50px;
+   transition: 3s;
+   color: #3fc551;
+   text-decoration: none;
+   transition: color 0.5s;
+}
+
+.nav-link:hover {
+   color: #2d1fc8;
+}
+
+html {
+   scroll-behavior: smooth;
+}
