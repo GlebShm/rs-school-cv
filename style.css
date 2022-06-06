@@ -5,6 +5,25 @@ body {
 .container {
    max-width: 1440px;
    margin: 0 auto;
+   border: 1px solid rgb(58, 15, 229);
+}
+
+.main-container {
+   border: 1px solid rgb(26, 255, 125);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.section {
+   width: 49%;
+   border: 1px solid rgb(221, 16, 16);
+}
+
+@media (max-width: 768px) {
+   .section {
+      width: 100%;
+   }
 }
 
 .nav-list {
