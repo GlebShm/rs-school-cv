@@ -1,5 +1,16 @@
+@media (max-width: 768px) {
+   .section {
+      width: 100%;
+   }
+}
+
 body {
    font-family: 'Syncopate', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #4d2323;
+   margin: 0;
 }
 
 .container {
@@ -16,14 +27,15 @@ body {
 }
 
 .section {
-   width: 49%;
-   border: 1px solid rgb(221, 16, 16);
+   width: 50%;
 }
 
-@media (max-width: 768px) {
-   .section {
-      width: 100%;
-   }
+.section-title {
+   font-size: 20px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   color: #829985;
 }
 
 .nav-list {
@@ -47,6 +59,32 @@ body {
    color: #2d1fc8;
 }
 
+.link {
+   text-decoration: none;
+   color: #829985;
+   transition: color 0.5s;
+}
+
+.link:hover {
+   color: #5d7260;
+}
+
 html {
    scroll-behavior: smooth;
+}
+
+.footer {
+   display: block;
+   background-color: rgb(174, 210, 189);
+}
+
+.info {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+
+}
+
+.img-logo {
+   width: 150px;
 }
