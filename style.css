@@ -9,25 +9,54 @@ body {
    font-size: 18px;
    font-weight: 400;
    line-height: 1.5;
-   color: #4d2323;
    margin: 0;
 }
 
 .container {
    max-width: 1440px;
    margin: 0 auto;
-   border: 1px solid rgb(58, 15, 229);
+   padding: 0;
 }
 
 .main-container {
-   border: 1px solid rgb(26, 255, 125);
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
 }
 
+.header {
+   padding: 10px;
+   background-color: rgb(171, 192, 190);
+}
+
+
 .section {
    width: 50%;
+}
+
+.profile {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   margin-bottom: 50px;
+}
+
+.photo {
+   width: 200px;
+   height: 200px;
+   border: 20px solid white;
+   border-radius: 50%;
+}
+
+.profile-title {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.profile-title>.section-title {
+   font-size: 35px;
+   text-align: center;
 }
 
 .section-title {
@@ -35,38 +64,38 @@ body {
    font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 5px;
-   color: #829985;
+   color: #f56565;
 }
 
 .nav-list {
    display: flex;
-   justify-content: flex-end;
+   justify-content: center;
+   margin: 0;
    align-items: center;
    list-style: none;
 }
 
 .nav-link {
-   border: 1px solid black;
    padding: 0 20px;
    line-height: 50px;
    transition: 3s;
-   color: #3fc551;
+   color: #fcfefc;
    text-decoration: none;
    transition: color 0.5s;
 }
 
 .nav-link:hover {
-   color: #2d1fc8;
+   color: #f56565;
 }
 
-.link {
+.github-link {
    text-decoration: none;
-   color: #829985;
+   color: #fcfefc;
    transition: color 0.5s;
 }
 
-.link:hover {
-   color: #5d7260;
+.github-link:hover {
+   color: #f56565;
 }
 
 html {
@@ -75,16 +104,25 @@ html {
 
 .footer {
    display: block;
-   background-color: rgb(174, 210, 189);
+   background-color: rgb(171, 192, 190);
 }
 
 .info {
    display: flex;
    justify-content: space-between;
-   padding: 20px;
-
+   margin: 0 auto;
 }
 
 .img-logo {
    width: 150px;
+   height: 50px;
+}
+
+.footer-year {
+   color: #fcfefc;
+   margin-left: 20px;
+}
+
+.rss {
+   padding-top: 5px;
 }

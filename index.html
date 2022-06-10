@@ -15,26 +15,29 @@
 
 <body>
    <header class="header">
-      <div class="container">
+      <div class="container nav-container">
          <nav class="nav">
             <ul class="nav-list">
-               <li class="nav-item"><a class="nav-link" href="#Contacts">Contacts</a></li>
-               <li class="nav-item"><a class="nav-link" href="#Summary">Summary</a></li>
-               <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
-               <li class="nav-item"><a class="nav-link" href="#Code">Code</a></li>
-               <li class="nav-item"><a class="nav-link" href="#Courses">Courses</a></li>
-               <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
-               <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
-               <li class="nav-item"><a class="nav-link" href="#English">English</a></li>
+               <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+               <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+               <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+               <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+               <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+               <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+               <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+               <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
             </ul>
          </nav>
       </div>
    </header>
    <main class="main">
       <div class="container main-container">
-         <section class="ection" id="profile">
-            <h1 class="section-title">Profile</h1>
-            <p>Ivan Ivanov</p>
+         <section class="section profile" id="profile">
+            <img class="photo" src="./assets/pexels-photo-2741701.jpeg" alt="my photo">
+            <div class="profile-title">
+               <h1 class="section-title">Ivan Ivanov</h1>
+               <p class="name-text">Junior front-end developer</p>
+            </div>
          </section>
          <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
@@ -61,13 +64,13 @@
          </section>
          <section class="section" id="code">
             <h2 class="section-title">Code</h2>
-            <code>function getMiddle(s)
-               {
-                 if (s.length % 2 === 0) {
-                  return  s[s.length / 2 - 1] + s[s.length / 2] 
-                 } else {
-                    return s[Math.floor(s.length / 2)];
-                 }
+            <code>function getMiddle(s)<br> 
+               {<br> 
+                 if (s.length % 2 === 0) {<br> 
+                  return  s[s.length / 2 - 1] + s[s.length / 2] <br> 
+                 } else {<br> 
+                    return s[Math.floor(s.length / 2)];<br> 
+                 }<br> 
                }</code>
          </section>
          <section class="section" id="courses">
@@ -95,8 +98,9 @@
    </main>
    <footer class="footer">
       <div class="container info">
-         <p>2022 <a class="link github-link" href="https://github.com/GlebShm" target="_blank">GitHub</a></p>
-         <a class="link" href="https://rs.school/js/" target="_blank"><img class="img-logo"
+         <p class="footer-year">2022 <a class="link github-link" href="https://github.com/GlebShm"
+               target="_blank">GitHub</a></p>
+         <a class="link rss" href="https://rs.school/js/" target="_blank"><img class="img-logo"
                src="./assets/rs_school_js.svg" alt="logo of the school"></a>
       </div>
    </footer>
